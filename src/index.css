@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #d4be4562;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*! Language Component Styling  */
+
+.lang-card{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+
+.lang-card:hover {
+  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
+}
+.lang-logo {
+ transition: transform 0.2s;
+}
+
+.lang-card:hover .lang-logo {
+  transform: scale(1.1);
+  
+}
+
